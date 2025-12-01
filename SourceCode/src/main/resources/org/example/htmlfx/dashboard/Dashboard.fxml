@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="root" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.htmlfx.dashboard.DashboardControl">
+   <children>
+      <VBox prefHeight="720.0" prefWidth="200.0">
+         <children>
+            <AnchorPane id="toolbar_Pane" fx:id="toolbar_Pane" prefHeight="720.0" prefWidth="200.0" styleClass="white_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="200.0" onMouseClicked="#gotoBook" prefHeight="40.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Books" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/book.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="10.0" right="10.0" top="100.0" />
+                     </padding></Label>
+                  <Label graphicTextGap="20.0" layoutX="10.0" layoutY="150.0" prefHeight="40.0" prefWidth="178.0" styleClass="selection1_Button" stylesheets="@../Makecolor.css" text="Home" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" nodeOrientation="INHERIT" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/home.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding></Label>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="250.0" onMouseClicked="#gotoMember" prefHeight="40.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Members" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/member.png" />
+                           </image></ImageView>
+                     </graphic></Label>
+                  <Label alignment="BOTTOM_LEFT" graphicTextGap="20.0" layoutX="11.0" layoutY="300.0" onMouseClicked="#gotoBorrow" prefHeight="37.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Borrow" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/borrow.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Label>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="350.0" onMouseClicked="#gotoIncome" prefHeight="38.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Income" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/income.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Label>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="400.0" onMouseClicked="#gotoLogin" prefHeight="38.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Log out" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/logout.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Label>
+                  <ImageView fitHeight="200.0" fitWidth="190.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/application/HTML.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Pane layoutX="200.0" prefHeight="720.0" prefWidth="1080.0" styleClass="gray_background" stylesheets="@../Makecolor.css">
+         <children>
+            <Pane id="toolbarAP" prefHeight="50.0" prefWidth="1080.0" styleClass="white_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <ImageView fx:id="bell" fitHeight="30.0" fitWidth="30.0" layoutX="938.0" layoutY="10.0" onMouseClicked="#checkNotification" opacity="0.55" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/application/notice.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image" fitHeight="28.0" fitWidth="28.0" layoutX="991.0" layoutY="10.0" onMouseClicked="#info_admin" opacity="0.55" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/application/user.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="settingButton" fitHeight="30.0" fitWidth="30.0" layoutX="889.0" layoutY="10.0" onMouseClicked="#SettingHandle" opacity="0.55" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/application/volume.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#fffefe" layoutX="31.0" layoutY="35.0" stroke="#2ab7de" strokeType="OUTSIDE" strokeWidth="2.0" text="Welcome admin!">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="38.0" layoutY="310.0" prefHeight="362.0" prefWidth="533.0" styleClass="white_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <LineChart fx:id="lineChart" layoutX="-4.0" prefHeight="362.0" prefWidth="533.0" stylesheets="@../Makecolor.css" title="Borrowing Times">
+                     <xAxis>
+                        <CategoryAxis prefHeight="18.0" prefWidth="471.0" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+               </children>
+            </Pane>
+            <Pane id="bg1" layoutX="38.0" layoutY="173.0" prefHeight="91.0" prefWidth="200.0" styleClass="pane0" stylesheets="@../Makecolor.css">
+               <children>
+                  <Text fill="#8c8888c9" layoutX="80.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Income">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="getIncome" alignment="CENTER" layoutX="21.0" layoutY="26.0" onMouseClicked="#gotoIncome" prefHeight="40.0" prefWidth="164.0" text="1000000$">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="70.0" fitWidth="40.0" layoutX="-6.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" rotate="-6.3" scaleX="2.0" scaleY="2.0">
+                     <image>
+                        <Image url="@../../../../img/application/santa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="200.0" layoutX="87.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="1.1">
+                     <image>
+                        <Image url="@../../../../img/application/pngegg.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane layoutX="371.0" layoutY="174.0" prefHeight="90.0" prefWidth="200.0" styleClass="pane0" stylesheets="@../Makecolor.css">
+               <children>
+                  <Text fill="#8c8888c9" layoutX="51.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Borrowed today">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="getBorrow" alignment="CENTER" layoutX="18.0" layoutY="25.0" onMouseClicked="#gotoBorrow_temp" prefHeight="40.0" prefWidth="164.0" text="5">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="165.0" layoutY="-35.0" pickOnBounds="true" preserveRatio="true" rotate="20.2">
+                     <image>
+                        <Image url="@../../../../img/application/hat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="200.0" layoutX="43.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true" scaleX="2.2" scaleY="1.2">
+                     <image>
+                        <Image url="@../../../../img/application/pngegg.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Text fill="#020933" layoutX="38.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Text>
+            <DatePicker layoutX="860.0" layoutY="117.0" opacity="0.66" prefHeight="33.0" prefWidth="200.0" promptText="Calendar" styleClass="calendar" stylesheets="@../Makecolor.css" />
+            <Pane layoutX="606.0" layoutY="175.0" prefHeight="496.0" prefWidth="454.0" styleClass="white_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <TableView fx:id="tableView" layoutX="16.0" layoutY="45.0" prefHeight="434.0" prefWidth="423.0" styleClass="table" stylesheets="@../Makecolor.css">
+                     <columns>
+                        <TableColumn fx:id="id" prefWidth="76.800048828125" resizable="false" text="ID" />
+                        <TableColumn fx:id="name" prefWidth="254.39996337890625" resizable="false" text="Name" />
+                        <TableColumn fx:id="borrowedTimes" prefWidth="85.0" resizable="false" text="Times" />
+                     </columns>
+                  </TableView>
+                  <Text fontSmoothingType="LCD" layoutX="16.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Most borrowed books">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ListView fx:id="notificationListView" layoutX="705.0" layoutY="50.0" prefHeight="362.0" prefWidth="354.0" stylesheets="@../Makecolor.css" visible="false" />
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="990.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true" scaleX="3.0" scaleY="4.0" style="-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.5, 1, 5);">
+               <image>
+                  <Image url="@../../../../img/application/tree.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</HBox>

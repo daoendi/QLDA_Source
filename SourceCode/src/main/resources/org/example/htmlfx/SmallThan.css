@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #FFEEF7;
+
+}
+.TextField0 {
+    -fx-font-size: 14px;
+    -fx-border-width: 1.2px;
+    -fx-border-color: #A5A5A5;
+    -fx-border-radius: 6px;
+    -fx-background-radius:6px;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: #aaa;
+    -fx-transition: all 0.3s ease;
+
+}
+.TextField0:focused {
+    -fx-prompt-text-fill: transparent;
+    -fx-border-color:#B9103B;
+    -fx-border-width: 1px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-background-radius: 6px;
+    -fx-effect: dropshadow(gaussian,#D56094, 7, 0, 0, 0);
+}
+.button0 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #404040;
+    -fx-font-size: 14px;
+    -fx-font-family: system;
+    -fx-font-weight: bold;
+    -fx-border-color: #404040;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 4px 6px;
+}
+.button0:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-cursor: hand;
+    -fx-background-color: #f0f0f0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 7, 0.5, 0.5, 2);
+}
+
