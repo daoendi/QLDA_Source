@@ -1,0 +1,140 @@
+ID: null
+Title: Fundamentals of OOP and Data Structures in Java
+Author(s): Richard Wiener, Lewis J. Pinson
+Publisher: Cambridge University Press
+Published Date: 2000-06-05
+Language: en
+Number of Pages: 484
+Format: BOOK
+Description: A book for an undergraduate course on data structures which integrates the concepts of object-oriented programming and GUI programming.
+Price: 121.0
+Amount: 80
+Image Link: http://books.google.com/books/content?id=dJ_DXvFnIgoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=dJ_DXvFnIgoC&pg=PA4&dq=OOP&hl=&cd=1&source=gbs_api
+------------------------------------------------
+ID: null
+Title: InfoWorld
+Author(s): Unknown Author
+Publisher: Unknown Publisher
+Published Date: 1990-04-30
+Language: en
+Number of Pages: 108
+Format: MAGAZINE
+Description: InfoWorld is targeted to Senior IT professionals. Content is segmented into Channels and Topic Centers. InfoWorld also celebrates people, companies, and projects.
+Price: 27.0
+Amount: 18
+Image Link: http://books.google.com/books/content?id=LjsEAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=LjsEAAAAMBAJ&pg=PA68&dq=OOP&hl=&cd=2&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Readings in Object-Oriented Database Systems
+Author(s): Stanley B. Zdonik, David Maier
+Publisher: Morgan Kaufmann
+Published Date: 1990
+Language: en
+Number of Pages: 646
+Format: BOOK
+Description: This comprehensive collection is a survey of research in object-oriented databases, offering a substantive overview of the field, section introductions, and over 40 research papers presented in their original scope and detail. The balanced selection of articles presents a confluence of ideas from both the language and database research communities that have contributed to the object-oriented paradigm. The editors develop a general definition and model for object-oriented databases and relate significant research efforts to this framework. Further, the collection explores the fundamental notions behind object-oriented databases, semantic data models, implementation of object-oriented systems, transaction processing, interfaces, and related approaches. Research and theory are balanced by applications to CAD systems, programming environments, and office information systems.
+Price: 161.5
+Amount: 107
+Image Link: http://books.google.com/books/content?id=vdHATYxBA5sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=vdHATYxBA5sC&pg=PA301&dq=OOP&hl=&cd=3&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Service Oriented, Holonic and Multi-agent Manufacturing Systems for Industry of the Future
+Author(s): Theodor Borangiu, Damien Trentesaux, Paulo Leitão, Adriana Giret Boggino, Vicente Botti
+Publisher: Springer
+Published Date: 2019-08-02
+Language: en
+Number of Pages: 444
+Format: BOOK
+Description: This proceedings book presents selected peer-reviewed papers from the 9th International Workshop on ‘Service Oriented, Holonic and Multi-agent Manufacturing Systems for the Industry of the Future’ organized by Universitat Politècnica de València, Spain, and held on October 3–4, 2019. The SOHOMA 2019 Workshop aimed to foster innovation in the digital transformation of manufacturing and logistics by promoting new concepts and methods and solutions through service orientation in holonic and agent-based control with distributed intelligence. The book provides insights into the theme of the SOHOMA’19 Workshop – ‘Smart anything everywhere – the vertical and horizontal manufacturing integration, ’ addressing ‘Industry of the Future’ (IoF), a term used to describe the 4th industrial revolution initiated by a new generation of adaptive, fully connected, analytical and highly efficient robotized manufacturing systems. This global IoF model describes a new stage of manufacturing, that is fully automatized and uses advanced information, communication and control technologies such as industrial IoT, cyber-physical production systems, cloud manufacturing, resource virtualization, product intelligence, and digital twin, edge and fog computing. It presents the IoF interconnection of distributed manufacturing entities using a ‘system-of-systems’ approach, discussing new types of highly interconnected and self-organizing production resources in the entire value chain; and new types of intelligent decision-making support based on from real-time production data collected from resources, products and machine learning processing. This book is intended for researchers and engineers working in the manufacturing value chain, and specialists developing computer-based control and robotics solutions for the ‘Industry of the Future’. It is also a valuable resource for master’s and Ph.D. students in engineering sciences programs.
+Price: 111.0
+Amount: 74
+Image Link: http://books.google.com/books/content?id=MR2nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=MR2nDwAAQBAJ&pg=PA276&dq=OOP&hl=&cd=4&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Thermal Comfort Assessment of Buildings
+Author(s): Salvatore Carlucci
+Publisher: Springer Science & Business Media
+Published Date: 2013-05-24
+Language: en
+Number of Pages: 145
+Format: BOOK
+Description: A number of metrics for assessing human thermal response to climatic conditions have been proposed in scientific literature over the last decades. They aim at describing human thermal perception of the thermal environment to which an individual or a group of people is exposed. More recently, a new type of “discomfort index” has been proposed for describing, in a synthetic way, long-term phenomena. Starting from a systematic review of a number of long-term global discomfort indices, they are then contrasted and compared on a reference case study in order to identify their similarities and differences and strengths and weaknesses. Based on this analysis, a new short-term local discomfort index is proposed for the American Adaptive comfort model. Finally, a new and reliable long-term general discomfort index is presented. It is delivered in three versions and each of them is suitable to be respectively coupled with the Fanger, the European Adaptive and the American Adaptive comfort models.
+Price: 36.25
+Amount: 24
+Image Link: http://books.google.com/books/content?id=tYlEAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=tYlEAAAAQBAJ&pg=PA89&dq=OOP&hl=&cd=5&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Hearings
+Author(s): United States. Congress. House. Committee on Interior and Insular Affairs
+Publisher: Unknown Publisher
+Published Date: 1951
+Language: en
+Number of Pages: 2160
+Format: BOOK
+Description: No description available.
+Price: 540.0
+Amount: 360
+Image Link: http://books.google.com/books/content?id=WksfAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=WksfAQAAMAAJ&pg=RA3-PA577&dq=OOP&hl=&cd=6&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Financing Health Care in East Asia and the Pacific
+Author(s): John C. Langenbrunner, Jack Langenbrunner, Aparnaa Somanathan
+Publisher: World Bank Publications
+Published Date: 2011-06-16
+Language: en
+Number of Pages: 357
+Format: BOOK
+Description: East Asian and Pacific countries are growing rapidly. They need high quality, well-funded health systems to underpin their population growth and assure continued productivity and economic growth. But countries will need to spend wisely, using modern techniques of insurance and strategic contracting with providers.
+Price: 89.25
+Amount: 59
+Image Link: http://books.google.com/books/content?id=8bRgZdrc-WYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=8bRgZdrc-WYC&pg=PA90&dq=OOP&hl=&cd=7&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Global Health and Pharmacology
+Author(s): Susan Leigh Craddock, Dominique Tobbell
+Publisher: Frontiers Media SA
+Published Date: 2021-12-06
+Language: en
+Number of Pages: 145
+Format: BOOK
+Description: No description available.
+Price: 36.25
+Amount: 24
+Image Link: http://books.google.com/books/content?id=5hFTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=5hFTEAAAQBAJ&pg=PA138&dq=OOP&hl=&cd=8&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Hearings
+Author(s): United States. Congress Senate
+Publisher: Unknown Publisher
+Published Date: 1954
+Language: en
+Number of Pages: 2210
+Format: BOOK
+Description: No description available.
+Price: 552.5
+Amount: 368
+Image Link: http://books.google.com/books/content?id=4HxIMO9DhkQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=4HxIMO9DhkQC&pg=RA1-PA254&dq=OOP&hl=&cd=9&source=gbs_api
+------------------------------------------------
+ID: null
+Title: Stockpile and Accessibility of Strategic and Critical Materials to the United States in Time of War
+Author(s): United States. Congress. Senate. Committee on Interior and Insular Affairs
+Publisher: Unknown Publisher
+Published Date: 1954
+Language: en
+Number of Pages: 1650
+Format: BOOK
+Description: No description available.
+Price: 412.5
+Amount: 275
+Image Link: http://books.google.com/books/content?id=QyPRAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+Preview Link: http://books.google.com.vn/books?id=QyPRAAAAMAAJ&pg=RA2-PA254&dq=OOP&hl=&cd=10&source=gbs_api
+------------------------------------------------

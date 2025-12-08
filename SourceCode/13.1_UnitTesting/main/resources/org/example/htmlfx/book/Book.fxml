@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="root1" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.htmlfx.book.BookController">
+   <children>
+      <VBox prefHeight="720.0" prefWidth="200.0">
+         <children>
+            <AnchorPane id="toolbar_Pane" fx:id="toolbar_pane1" prefHeight="720.0" prefWidth="200.0" styleClass="white_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="200.0" prefHeight="40.0" prefWidth="172.0" styleClass="selection1_Button" stylesheets="@../Makecolor.css" text="Books" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/book.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="10.0" right="10.0" top="100.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="20.0" layoutX="10.0" layoutY="150.0" onMouseClicked="#gotoHome" prefHeight="40.0" prefWidth="178.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Home" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" nodeOrientation="INHERIT" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/home.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="250.0" onMouseClicked="#gotoMember" prefHeight="40.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Members" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/member.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label alignment="BOTTOM_LEFT" graphicTextGap="20.0" layoutX="11.0" layoutY="300.0" onMouseClicked="#gotoBorrow" prefHeight="37.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Borrow" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/borrow.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="350.0" onMouseClicked="#gotoIncome" prefHeight="38.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Income" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/income.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label graphicTextGap="20.0" layoutX="11.0" layoutY="400.0" onMouseClicked="#gotoLogin" prefHeight="38.0" prefWidth="172.0" styleClass="selection_Button" stylesheets="@../Makecolor.css" text="Log out" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img/application/logout.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <ImageView fitHeight="200.0" fitWidth="190.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/application/HTML.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Pane layoutX="200.0" prefHeight="720.0" prefWidth="1080.0" styleClass="gray_background" stylesheets="@../Makecolor.css">
+         <children>
+            <Pane prefHeight="50.0" prefWidth="1080.0" styleClass="white_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <TextField fx:id="textField" layoutX="87.0" layoutY="9.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="561.0" promptText="Search" styleClass="search_TextField" stylesheets="@../Makecolor.css" />
+                  <Label fx:id="statusLabel" layoutX="671.0" layoutY="10.0" prefHeight="30.0" prefWidth="211.0" text="Label">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutY="50.0" prefHeight="670.0" prefWidth="1080.0" styleClass="blue_background" stylesheets="@../Makecolor.css">
+               <children>
+                  <ScrollPane fx:id="scrollBook" prefHeight="670.0" prefWidth="1080.0">
+                     <content>
+                        <GridPane fx:id="caseBook">
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                           </rowConstraints>
+                        </GridPane>
+                     </content>
+                  </ScrollPane>
+                  <AnchorPane fx:id="showBook" prefHeight="670.0" prefWidth="1080.0" style="-fx-background-color: #ecf6ff;" visible="false">
+                     <children>
+                        <ImageView fx:id="imageBook" fitHeight="386.0" fitWidth="278.0" layoutX="42.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="returnButton" layoutX="29.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#backtoSearchBook" prefHeight="30.0" prefWidth="75.0" styleClass="button2" stylesheets="@../Makecolor.css" text="back" />
+                        <Button fx:id="downloadButton" layoutX="29.0" layoutY="495.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" styleClass="button0" stylesheets="@../Makecolor.css" text="Preview" />
+                        <Button fx:id="showQR" layoutX="223.0" layoutY="495.0" mnemonicParsing="false" onMouseClicked="#showQRClicked" prefHeight="30.0" prefWidth="120.0" styleClass="button1" stylesheets="@../Makecolor.css" text="QR" />
+                        <Button layoutX="29.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#addAmountBooktoLibrary" prefHeight="40.0" prefWidth="172.0" styleClass="button2" stylesheets="@../Makecolor.css" text="Add book to library" />
+                        <TextField fx:id="amountBook" alignment="CENTER" layoutX="283.0" layoutY="564.0" prefHeight="18.0" prefWidth="60.0" style="-fx-padding: 2px 6px; -fx-border-color: #404040;" styleClass="search_TextField" stylesheets="@../Makecolor.css" text="0" />
+                        <Label alignment="CENTER" layoutX="223.0" layoutY="569.0" prefHeight="17.0" prefWidth="60.0" text="Amount:">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Pane layoutX="361.0" layoutY="41.0" prefHeight="590.0" prefWidth="702.0" styleClass="pane1" stylesheets="@../Makecolor.css">
+                           <children>
+                              <Label fx:id="nameBook" alignment="TOP_LEFT" layoutX="23.0" layoutY="26.0" prefHeight="70.0" prefWidth="657.0" text="Name of Book" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="detailsBook" layoutX="23.0" layoutY="90.0" prefHeight="198.0" prefWidth="657.0" text="&quot;Author(s): &quot; + book.getAuthors() + &quot;\n&quot; +                        &quot;Publisher: &quot; + book.getPublisher() + &quot;\n&quot; +                        &quot;Published Date: &quot; + book.getPublicationDate() + &quot;\n&quot; +                        &quot;Language: &quot; + book.getLanguage() + &quot;\n&quot; +                        &quot;Categories: &quot; + book.getSubject() + &quot;\n&quot; +                        &quot;Page Count: &quot; + book.getNumberOfPages()" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="descriptionBook" layoutX="23.0" layoutY="342.0" prefHeight="219.0" prefWidth="657.0" style="-fx-border-width: 0.5px;" styleClass="blue_background" stylesheets="@../Makecolor.css" text="&quot;Author(s): &quot; + book.getAuthors() + &quot;\n&quot; +&#10;                        &quot;Publisher: &quot; + book.getPublisher() + &quot;\n&quot; +&#10;                        &quot;Published Date: &quot; + book.getPublicationDate() + &quot;\n&quot; +&#10;                        &quot;Language: &quot; + book.getLanguage() + &quot;\n&quot; +&#10;                        &quot;Categories: &quot; + book.getSubject() + &quot;\n&quot; +&#10;                        &quot;Page Count: &quot; + book.getNumberOfPages()&#10;&quot;Author(s): &quot; + book.getAuthors() + &quot;\n&quot; +&#10;                        &quot;Publisher: &quot; + book.getPublisher() + &quot;\n&quot; +&#10;                        &quot;Published Date: &quot; + book.getPublicationDate() + &quot;\n&quot; +&#10;                        &quot;Language: &quot; + book.getLanguage() + &quot;\n&quot; +&#10;                        &quot;Categories: &quot; + book.getSubject() + &quot;\n&quot; +&#10;                        &quot;Page Count: &quot; + book.getNumberOfPages()" wrapText="true">
+                                 <font>
+                                    <Font name="Times New Roman" size="12.0" />
+                                 </font>
+                              </TextArea>
+                              <Label fx:id="stocklabel" layoutX="23.0" layoutY="288.0" prefHeight="37.0" prefWidth="570.0" text="This book is not available in library!!!">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+                  <ListView fx:id="viewList" layoutX="88.0" prefHeight="268.0" prefWidth="555.0" visible="false" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</HBox>
